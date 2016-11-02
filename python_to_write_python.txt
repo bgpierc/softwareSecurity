@@ -1,7 +1,7 @@
 import os
 
 def python_write():
-	f=open('output','w')
+	f=open('output.py','w')
 	f.write('test'\n')
 	f.close()
 

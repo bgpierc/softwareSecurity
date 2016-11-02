@@ -1,0 +1,10 @@
+import os
+
+def python_write():
+	f=open('output')
+	f.write('test'\n')
+	f.close()
+
+def python_read():
+	f=open('output')
+	f.close()

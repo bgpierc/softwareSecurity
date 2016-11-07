@@ -1,0 +1,10 @@
+In order to integrate GDB with Python, I used a python library called
+gdb (import gdb). To run a command, you call gdb.execute("your_command")
+in your program. The drawback of using this library is that you have to use a 
+workaround: wrapping the python in a bash script. The bash script usage is as
+follows-
+
+bash wrapper.sh YOUR_PYTHON_SCRIPT.py
+
+Basically, this script launches a GDB enviroment configured for Python.
+

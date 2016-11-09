@@ -1,2 +1,3 @@
 #!/bin/sh/
-gdb -q -x $1 #arg1 = pythonscript.py
+touch output
+gdb -q -x $1 > output #arg1 = pythonscript.py

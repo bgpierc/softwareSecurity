@@ -1,7 +1,12 @@
 #!/bin/bash
 
-read word
-
-python python_to_write_python.py $word
-
-python newpython.py
+while getopts ":h" opt; do
+  case $opt in
+    h)
+      echo "Usage: python_input.sh [STRING]" >&2
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      ;;
+  esac
+done

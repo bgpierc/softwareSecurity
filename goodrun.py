@@ -5,11 +5,9 @@ import config as conf
 arg = []
 x = 2
 conf.input_type = 2
-for i in range(x):
-	arg.append(i)
+arg.append(1)
+arg.append(2)
 if conf.input_type == 1 :
 	os.system("./a.out " + str(arg[0]) + ' ' + str(arg[1]))
 if conf.input_type == 2 :
-	os.system("./a.out")
-	os.system(arg[0])
-	os.system(arg[1])
+	os.system("echo " + str(arg[0]) + " " + str(arg[1]) + " | ./a.out")

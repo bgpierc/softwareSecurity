@@ -4,7 +4,6 @@ import os
 import config as conf
 arg = []
 x = 2
-conf.input_type = 2
 arg.append(1)
 arg.append(2)
 if conf.input_type == 1 :

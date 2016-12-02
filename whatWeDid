@@ -1,0 +1,6 @@
+1. created core dump with ulimit -c unlimited then run program and overflow it with -1 and "a crapton of A's"
+2. gdb no_overflow core
+3. info frame to find eip
+4. x/100c $eip - 0x00000001
+5. Guess where the sequence of A's is
+6. WRONG SHELLCODE FIX DAT SHIT FAM  

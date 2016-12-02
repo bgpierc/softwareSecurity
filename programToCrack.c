@@ -5,9 +5,8 @@
 #define BUFSIZE 256
 
 
-#
-#This code is from /home/no_overflow/no_overflow.c on the picoctf server
-#
+//This code is from /home/no_overflow/no_overflow.c on the picoctf server
+
 
 void greet(int length){
     char buf[BUFSIZE];

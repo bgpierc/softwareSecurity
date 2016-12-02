@@ -1,5 +1,16 @@
-Filename (with extension) of your binary: (gdb) 
-(gdb) (gdb) 
-(gdb) qq
-(gdb) qq
-(gdb) q
+Breakpoint 1 at 0x40072a
+
+Breakpoint 1, 0x000000000040072a in greet ()
+Stack level 0, frame at 0x7fffffffe180:
+ rip = 0x40072a in greet; saved rip = 0x400823
+ called by frame at 0x7fffffffe1b0
+ Arglist at 0x7fffffffe170, args: 
+ Locals at 0x7fffffffe170, Previous frame's sp is 0x7fffffffe180
+ Saved registers:
+  rbp at 0x7fffffffe170, rip at 0x7fffffffe178
+A debugging session is active.
+
+	Inferior 1 [process 1362] will be killed.
+
+Quit anyway? (y or n) (gdb) (gdb) (gdb) (gdb) (gdb) (gdb) (gdb) quitquit
+(gdb) [K(gdb) [K(gdb) 

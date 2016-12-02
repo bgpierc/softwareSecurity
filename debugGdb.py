@@ -1,6 +1,9 @@
 import gdb
 import sys
-str = input('Filename (with extension) of your binary: ')
+str = input()
 gdb.execute('file ' + str)
-gdb.execute("b main")
-gdb.execute("r")
+gdb.execute('b greet')
+gdb.execute('r')
+gdb.execute('info frame')
+gdb.execute('quit')
+gdb.execute('y')

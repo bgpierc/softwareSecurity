@@ -1,3 +1,4 @@
 #!/bin/sh/
 touch output
-gdb -q -x $1 > output #arg1 = pythonscript.py
+echo "executable: "
+gdb -q -x $1  > output #arg1 = pythonscript.py

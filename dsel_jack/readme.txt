@@ -1,0 +1,6 @@
+- input_type can either be Input.args or Input.commandline
+- buff_size is the size of the buffer
+- The args array is used to feed the vulnerable program (the array is still called args even if Input.commandline is selected)
+- The args definitions must be in the function called calcArgs
+- The args definition can be any python code, and it can use the values NOP, offset, and shellcode from the vals object in toimport.py
+- Note that offset is not defined by the user, but rather dynamically changed in by our program to find eip

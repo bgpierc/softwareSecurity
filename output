@@ -1,16 +1,20 @@
-Breakpoint 1 at 0x40072a
+Breakpoint 1 at 0x8048536
 
-Breakpoint 1, 0x000000000040072a in greet ()
-Stack level 0, frame at 0x7fffffffe180:
- rip = 0x40072a in greet; saved rip = 0x400823
- called by frame at 0x7fffffffe1b0
- Arglist at 0x7fffffffe170, args: 
- Locals at 0x7fffffffe170, Previous frame's sp is 0x7fffffffe180
+Breakpoint 1, 0x08048536 in greet ()
+Stack level 0, frame at 0xffffd680:
+ eip = 0x8048536 in greet; saved eip = 0x80485e5
+ called by frame at 0xffffd6b0
+ Arglist at 0xffffd678, args: 
+ Locals at 0xffffd678, Previous frame's sp is 0xffffd680
  Saved registers:
-  rbp at 0x7fffffffe170, rip at 0x7fffffffe178
+  ebp at 0xffffd678, eip at 0xffffd67c
 A debugging session is active.
 
-	Inferior 1 [process 1362] will be killed.
+	Inferior 1 [process 31454] will be killed.
 
-Quit anyway? (y or n) (gdb) (gdb) (gdb) (gdb) (gdb) (gdb) (gdb) quitquit
-(gdb) [K(gdb) [K(gdb) 
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 31454] will be killed.
+
+Quit anyway? (y or n) 

@@ -1,0 +1,36 @@
+Breakpoint 1 at 0x8048536
+
+Breakpoint 1, 0x08048536 in greet ()
+Stack level 0, frame at 0xffffd680:
+ eip = 0x8048536 in greet; saved eip = 0x80485e5
+ called by frame at 0xffffd6b0
+ Arglist at 0xffffd678, args:
+ Locals at 0xffffd678, Previous frame's sp is 0xffffd680
+ Saved registers:
+  ebp at 0xffffd678, eip at 0xffffd67c
+A debugging session is active.
+
+        Inferior 1 [process 12470] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+        Inferior 1 [process 12470] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+        Inferior 1 [process 12470] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+        Inferior 1 [process 12470] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+        Inferior 1 [process 12470] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.

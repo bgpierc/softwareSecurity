@@ -1,0 +1,16 @@
+#!/bin/bash
+
+while getopts ":h:r" opt; do
+  case $opt in
+    h)
+      echo "Usage: buf_wrapper.sh -r [INPUT]" >&2
+      ;;
+    r)
+      python python_to_write_pytho
+      ;;
+    \?)
+      echo "Invalid option:" >&2
+      ;;
+  esac
+done
+
